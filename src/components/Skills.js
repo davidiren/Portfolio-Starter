@@ -21,7 +21,7 @@ const Skill = ({name, x, y}) => {
 const Skills = () => {
   return (
     <>
-      <h2 className='font-bold text-8xl mt-64 w-full text-center md:text-6xl md:mt-32'>Skills</h2>
+      <h2 className='font-bold text-8xl mt-64 w-full text-center md:text-6xl md:mt-32 pb-48 xl:pb-0 lg:pb-8'>Skills</h2>
       <div className='w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight dark:bg-circularDark
                       lg:h-[80vh] sm:h-[60vh] xs:h-[50vh] 
                       lg:bg-circularLightLg lg:dark:bg-circularDarkLg
@@ -36,17 +36,17 @@ const Skills = () => {
             Design
         </motion.div>
 
-        <Skill name="HTML" x="-25vw" y="2vw"/>
-        <Skill name="Javascript" x="20vw" y="6vw"/>
-        <Skill name="NextJS" x="0vw" y="12vw"/>
-        <Skill name="ReactJS" x="-20vw" y="-15vw"/>
-        <Skill name="Adobe" x="-14vw" y="-4vw"/>
-        <Skill name="C# / .net" x="15vw" y="-12vw"/>
-        <Skill name="Web Design" x="32vw" y="-5vw"/>
-        <Skill name="Figma" x="0vw" y="-20vw"/>
-        <Skill name="User Testing" x="-5vw" y="-10vw"/>
-        <Skill name="UX Design" x="-14vw" y="8vw"/>
-        <Skill name="UI Design" x="14vw" y="-4vw"/>
+        <Skill name="HTML" x="-27vw" y="5vw"/>
+        <Skill name="Javascript" x="20vw" y="17vw"/>
+        <Skill name="NextJS" x="0vw" y="25vw"/>
+        <Skill name="ReactJS" x="-25vw" y="-22vw"/>
+        <Skill name="Adobe" x="-17vw" y="-4vw"/>
+        <Skill name="C# / .net" x="22vw" y="-22vw"/>
+        <Skill name="Web Design" x="32vw" y="-8vw"/>
+        <Skill name="Figma" x="0vw" y="-30vw"/>
+        <Skill name="User Testing" x="-5vw" y="-15vw"/>
+        <Skill name="UX Design" x="-14vw" y="16vw"/>
+        <Skill name="UI Design" x="25vw" y="-0vw"/>
       </div>
     </>
   )
