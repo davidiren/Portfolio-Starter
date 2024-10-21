@@ -46,13 +46,13 @@ const Experience = () => {
 
             <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                 <Details 
-                    position="Software Engineer" company="Nipsoft AB"
-                    companyLink="www.nipsoft.se"
-                    time="2020 & 2021 Summer" address="Sollefteå, Sverige"
-                    work="Worked on a team responsible for re-developing a application written in 
-                    a depricated development environment to a modern HTML5 application based on 
-                    Microsoft Blazor tech. During this period I developed API, UX features, unit- &
-                    system tests as well as backend development for further functionality"
+                    position="UX Designer" company="Kvix AB"
+                    companyLink="www.kvix.tv"
+                    time="2022" address="Umeå, Sverige"
+                    work="As a UX Designer at Kvix AB I carried out my master thesis and accomplished
+                    a fully realized design for a mobile application from scratch with accompanying
+                    research, user-tests and full documentation of the approach and decisions with
+                    conclusions drawn."
                 />
 
                 <Details 
@@ -62,28 +62,19 @@ const Experience = () => {
                     work="Worked on a team responsible for re-developing a application written in 
                     a depricated development environment to a modern HTML5 application based on 
                     Microsoft Blazor tech. During this period I developed API, UX features, unit- &
-                    system tests as well as backend development for further functionality"
+                    system tests as well as backend development for further functionality."
                 />
 
                 <Details 
-                    position="Software Engineer" company="Nipsoft AB"
-                    companyLink="www.nipsoft.se"
-                    time="2020 & 2021 Summer" address="Sollefteå, Sverige"
-                    work="Worked on a team responsible for re-developing a application written in 
-                    a depricated development environment to a modern HTML5 application based on 
-                    Microsoft Blazor tech. During this period I developed API, UX features, unit- &
-                    system tests as well as backend development for further functionality"
+                    position="Interaction Designer" company="Idus AB"
+                    companyLink="www.idus.se"
+                    time="2019 Summer" address="Härnösand, Sverige"
+                    work="I was hired as an interaction designer at Idus to evaluate their maintenance 
+                    application, my main responsibility was to identify flaws and improvement opportunities 
+                    to create a better experience for their users. Additionally, 
+                    I created designs for their under development web application of their maintenance application."
                 />
 
-                <Details 
-                    position="Software Engineer" company="Nipsoft AB"
-                    companyLink="www.nipsoft.se"
-                    time="2020 & 2021 Summer" address="Sollefteå, Sverige"
-                    work="Worked on a team responsible for re-developing a application written in 
-                    a depricated development environment to a modern HTML5 application based on 
-                    Microsoft Blazor tech. During this period I developed API, UX features, unit- &
-                    system tests as well as backend development for further functionality"
-                />
             </ul>
 
         </div>
